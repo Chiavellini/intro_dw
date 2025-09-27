@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulario LocalStorage</title>
+    <script src="ejc6.js"></script>
+  </head>
+  <body>
+    <h1>Formulario con localStorage</h1>
+
+    <label>Nombre:</label>
+    <input type="text" id="nombre" placeholder="Escribe tu nombre" /><br /><br />
+
+    <label>Edad:</label>
+    <input type="text" id="edad" placeholder="Escribe tu edad" /><br /><br />
+
+    <label>Color favorito:</label>
+    <select id="colorFavorito">
+      <option value="">Selecciona un color</option>
+      <option>azul</option>
+      <option>verde</option>
+      <option>naranja</option>
+      <option>rojo</option>
+    </select><br /><br />
+
+    <button onclick="guardarDatos()">Guardar</button>
+    <button onclick="mostrarDatos()">Mostrar</button>
+
+    <p id="resultado">resultado</p>
+  </body>
+</html>
