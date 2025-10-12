@@ -24,3 +24,7 @@ console.log("despues de push: ", frutas);
 
 frutas.shift();
 console.log("despues de shift: ", frutas);
+
+const frutasLargas = frutas.filter(frutas => frutas.length > 5);
+
+console.log(frutasLargas);
