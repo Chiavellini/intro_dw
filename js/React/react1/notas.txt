@@ -1,0 +1,2 @@
+-nunca subir node modules a github
+-lo equivalente al requirements.txt es package-lock.json Y package.json
